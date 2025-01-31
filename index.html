@@ -1,78 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<center><h1 style="color:white;">Welcome! Sashi here</h1></center>
-
-	<div id="nav-bar-container">
-		<hr color ="black" size = "3">
-		<nav id="nav-bar">
-			<div id="menu">
-				<div class="menu-item"><a href="#">Home</a></div>
-<!-- 				<div class="menu-item"><a href="https://raw.githubusercontent.com/Sashwat-Sashi/Website/main/CV__Sashwat_Prasadh.pdf" target="_blank">CV</a></div> -->
-				<div class="menu-item"><a href="CV__Sashwat_Prasadh.pdf" target="_blank">CV</a></div>
-				<div class="menu-item">Projects</div>
-<!-- 				<div class="menu-item"><a href="https://github.com/Sashwat-Sashi/Website.git">Contact</a></div> -->
-			</div>	
-		</nav>
-		<hr color = "black" size = "3"> 
-	</div>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sashwat Prasadh - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0A192F;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+        
+        header {
+            background: #112240;
+            padding: 20px 0;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            font-size: 20px;
+        }
+        
+        nav a {
+            color: #64FFDA;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #FF4081;
+        }
+        
+        .intro {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 0;
+        }
+        
+        .intro img {
+            width: 300px;
+            border-radius: 10px;
+            margin-right: 40px;
+        }
+        
+        .bio {
+            max-width: 600px;
+            font-size: 22px;
+        }
+        
+        .quote {
+            background: #112240;
+            padding: 40px;
+            font-size: 20px;
+            font-style: italic;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        footer {
+            background: #0A192F;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
 <body>
-	<section id = "intro-container" >
-		<figure>
-			<img src="https://lh3.googleusercontent.com/Ru54Mddp8NIW7PabSNl134tvUiMgp42mVzn9abtvb0QdpAgFYCN-3pqYRrTMoH7S6iUWrxYETKE4h6MT1Bj9QeMLjaEXTDLAYqQBZPrrbkPnJJvZQlk2gOSiY4kF8GL6rnA0mhXG=w2400" alt="me" width="350" height="450" align="left">
-		</figure>
-		<div id="intro-para">
-			Hi, I am Sashi. I am currently a student at MUN studying physics.
-		</div>	
-	</section>
-
-	<hr color="black" size="8px">
-
-<!-- 	<section id="quote-container">
-		<p style="margin-bottom:2cm;"></p>
-		
-		<div id="quote-stat">
-			<pre align="left"><b>
-				I am one of those who believe that 
-				mankind will derive more good than harm 
-				from the new <i>scientific</i> discoveries.
-				- Pierre Curie  
-				(In his Nobel Prize Winning Lecture)
-				June 6, 1905
-			</b></pre>
-		</div>	
-	</section> -->
-
-<!-- 	<p style="margin-bottom:7cm;"></p> -->
-
-	<div id="footer-container">
-		<div class="footer">
-			**End**
-		</div>
-		<hr color="black" size="3px">
-		<div class="footer">
-			Last Updated: 6:59 PM 4/27/2022<br>
-			Please note this website is still under development
-		</div>
-	</div>
-	</footer>
-
-<style>
-	#nav-bar-container {background-color: Dodgerblue; color: black; font-size: x-large; justify-content: space-around;}
-	#nav-bar {display: flex; flex-direction: row; justify-content: space-between; text-align: center; justify-content: space-around;}
-	#greeting {margin: 0px; text-align: left; justify: center;}
-	#menu {display: flex; flex-direction: row;}
-	.menu-item {margin: 50px; font-family: Arial, Helvetica, sans-serif; font-size: 28px;}
-	#intro-container {background-color: navy; color: white; width: 500px; height: 500px;}
-	#intro-para {display: flex; flex-direction: row; margin: 0px; font-size: 30px;}
-	.intro-para {margin:50px; text-align: left; font-size: 30px; font-family: Arial, Helvetica, sans-serif;}
-	#quote-container {background-color: navy; color: black; margin: 5px;}
-	.quote-stat {background-color: navy; color: white; font-size: 30px; text-align: left; margin: 3px;}
-	body {background-color: Navy;}
-	#footer-container {color: white; font-size: x-large; text-align: center;}
-	.footer {margin: 50px; font-family: Arial, Helvetica, sans-serif;}
-</style>
-
-</body>	
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="CV__Sashwat_Prasadh.pdf" target="_blank">CV</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="intro container">
+        <img src="https://lh3.googleusercontent.com/Ru54Mddp8NIW7PabSNl134tvUiMgp42mVzn9abtvb0QdpAgFYCN-3pqYRrTMoH7S6iUWrxYETKE4h6MT1Bj9QeMLjaEXTDLAYqQBZPrrbkPnJJvZQlk2gOSiY4kF8GL6rnA0mhXG=w2400" alt="Sashwat">
+        <div class="bio">
+            <h1>Welcome! Sashi here</h1>
+            <p>I am currently a student at MUN studying physics. Passionate about science, technology, and solving complex problems.</p>
+        </div>
+    </section>
+    
+    <section class="quote">
+        "I am one of those who believe that mankind will derive more good than harm from the new <i>scientific</i> discoveries."<br>
+        - Pierre Curie (Nobel Prize Lecture, 1905)
+    </section>
+    
+    <footer>
+        <p>Last Updated: January 2025</p>
+        <p>Website under development</p>
+    </footer>
+</body>
 </html>
