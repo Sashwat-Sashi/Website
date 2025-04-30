@@ -32,16 +32,20 @@
 }
 
     body {
-      font-family: Georgia, serif;
-      line-height: 1.8;
-      background-color: #f9f9f9;
-      color: #222;
-      max-width: 850px;
-      margin: 40px auto;
+      font-family: Georgia,'Times New Roman', serif;
+      line-height: 1.75;
+      background-color: #fafafa;
+      color: #111;
+/*       max-width: 850px; */
+/*       margin: 40px auto; */
+      margin:0;
       padding: 0 1.5rem;
     <button class="dark-toggle" onclick="toggleDarkMode()" style="position: fixed; top: 15px; right: 20px; z-index: 1000;">🌓 Toggle Dark Mode</button>
     }
     header {
+      background-color: #fff;
+      border-bottom: 1px solid #ccc;
+      padding: 2rem 1rem;
       text-align: center;
       margin-bottom: 2.5rem;
     }
@@ -49,6 +53,7 @@
       font-size: 2.2rem;
       font-weight: bold;
       margin-bottom: 0.2rem;
+      margin: 0;
     }
     .meta {
       font-size: 0.95rem;
@@ -57,11 +62,37 @@
     article p {
       margin-bottom: 1.4rem;
       font-size: 1.02rem;
+      margin-top: 0.5rem;
     }
     sup {
       vertical-align: super;
       font-size: 0.8rem;
     }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    figure {
+      margin: 2rem 0;
+      text-align: center;
+    }
+
+    figure img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    figcaption {
+      font-size: 0.85rem;
+      color: #555;
+      margin-top: 0.5rem;
+    }
+    
     footer {
       font-size: 0.9rem;
       margin-top: 3rem;
@@ -133,7 +164,7 @@
   <footer>
     <p><strong>Disclaimer:</strong> This article reflects the personal views and analysis of the author, Sashi. It is intended for informational and journalistic purposes only. The author is not liable for any interpretations, misinterpretations, or consequences resulting from the use of this content.</p>
     <p>This piece was independently written and edited with the assistance of AI for formatting and clarity. All opinions and responsibility for content remain solely with the author.</p>
-    <p>&copy; 2025 Sashi. All rights reserved. This article may not be reproduced or distributed without written permission from the author. Originally published on <a href="https://sashwat-sashi.github.io/Website/">sashwat-sashi.github.io</a>.</p>
+    <p>&copy; 2025 The IR & UV Lens. All rights reserved. This article may not be reproduced or distributed without written permission from the author. Originally published on <a href="https://sashwat-sashi.github.io/Website/">sashwat-sashi.github.io</a>.</p>
   </footer>
 
   <script>
